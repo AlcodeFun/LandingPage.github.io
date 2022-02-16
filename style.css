@@ -26,7 +26,7 @@ body {
 }
 .header {
     width: 100%;
-    min-height: 50px;
+    min-height: 70px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -47,8 +47,16 @@ body {
 .header ul li a:hover{
     opacity: 0.7;
 }
+.h-right{
+    font-size: 12px;
+
+}
+.h-left{
+    font-size: 12px;
+}
 .logo{
     color: white;
+    font-size: 12px;
 }
 
 .content{
@@ -65,16 +73,17 @@ body {
 .content img {
     background: #111111;
     flex: 1;
-    min-width: 600px;
+    min-width: 620px;
     height: 100%;
-    width: 50%;
     mix-blend-mode: screen;
     display: block;
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
-    border-color: #333333;
+    border-color: 3px #333333;
     align-items: center;
+    padding-top:-100px ;
+
 }
 .content .txt{
     flex: 1;
@@ -88,12 +97,12 @@ body {
     to {opacity: 1;}
 }
 .txt h2{
-    font-size: 45px;
+    font-size: 75px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 .txt h3{
-    font-size: 14px;
+    font-size: 22px;
     letter-spacing: 3px;
     color: #00B4D8;
 }
