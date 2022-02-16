@@ -26,7 +26,7 @@ body {
 }
 .header {
     width: 100%;
-    min-height: 70px;
+    min-height: 100px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -48,15 +48,15 @@ body {
     opacity: 0.7;
 }
 .h-right{
-    font-size: 12px;
+    font-size: 16px;
 
 }
 .h-left{
-    font-size: 12px;
+    font-size: 16px;
 }
 .logo{
     color: white;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .content{
@@ -107,7 +107,7 @@ body {
     color: #00B4D8;
 }
 .txt p{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.4;
     opacity: 0.5;
 }
